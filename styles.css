@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    height:100vh;
+    background: linear-gradient(to top right, rgb(30, 30, 202),rgb(94, 185, 212))no-repeat;
+    background-size: cover;
+}
+/********** navbar **********/
+.navbar{
+    margin:0% 18%;
+}
+/*********** Main ************/
+.row{
+    margin:5% 15% 0;
+}
+.content{
+    margin:40px;
+}
+.content h1{
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.content button{
+    background-color: green;
+    color: white;
+    padding:4px 7px;
+    border: none;
+    border-radius: 5px;
+    width:50%;
+    transform: translateX(0px);
+}
+.sign-form{
+    margin:2% 15%;
+    padding:20px;
+    border-radius: 2px;
+    background-color: white;
+}
+.sign-form h4{
+    color:rgb(73, 72, 72);
+    text-align: center;
+}
+form input{
+    width:90%;
+    margin:10px;
+    padding-top:4px;
+    padding-bottom: 4px;
+    outline-style: none;
+}
+form button{
+    width:90%;
+    background-color: #1D77F1;
+    color: white;
+    padding: 6px;
+    transform: translateX(10px);
+    border: none;
+    border-radius: 5px;
+}
+@media (max-width:1020px){
+    body{
+        height:auto;
+    }
+    .navbar{
+        text-align:center;
+        align-items: center;
+    }
+    .navbar-brand{
+        margin-left:30px;
+        text-align:center;
+    }
+    .navbar-toggler{
+       border:0;
+       width: fit-content;
+       transform: translateX(-20px) !important;
+    }
+    .content{
+        text-align:center;
+    }
+}
