@@ -1,1 +1,1 @@
-# sample[Click Here](https://yuvasreekandru.github.io/basic-website/)
+# sample [Click Here](https://yuvasreekandru.github.io/basic-website/)
