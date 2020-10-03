@@ -1,2 +1,2 @@
 # sample
-[Click Here]{https://www.youtube.com}
+[Click Here](https://www.youtube.com)
